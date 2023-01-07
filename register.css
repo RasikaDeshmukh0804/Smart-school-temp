@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    font-family: 'Righteous', cursive;
+    background-color: rgb(246,242,253);
+  }
+.nev-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.logo1{
+    margin-left: 5%;
+    color: rgb(84, 82, 91);
+}
+.logo-neg-ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  margin-top: 50px;
+}
+.nev-bar li {
+    float: right;
+    list-style: none;
+  }   
+.nev-bar li a {
+    display: block;
+    color: rgb (124,117,144);
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+.nev-bar li a:hover {
+    background-color: transparent;
+  }
+.nev-bar-p{
+    margin-top: 1%;
+    margin-right: 10%;
+    color: rgb(124,117,144);
+    font-size: 20px;
+}
+.nev-bar-button{
+    background-color: white;
+    color: red;
+    width: 29px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+.outershell{
+    display: flex;
+    justify-content: space-between;
+}
+#reg-form{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(235, 240, 241);
+    height: 200px;
+    width: 700px;
+    margin-left: 25%;
+    border-radius: 8px 8px;
+    border-color: aqua;
+}
+#nameinput{
+    margin-top: 2%;
+    width: 400px;
+    height: 20px;
+    border-radius: 10px 10px;
+    border-color: aquamarine;
+}
+#age{ margin-top: 1%;
+    width: 400px;
+    height: 20px;
+    border-radius: 10px 10px;
+    border-color: aquamarine;
+}
+#class{ margin-top: 1%;
+    width: 400px;
+    height: 20px;
+    border-radius: 10px 10px;
+    border-color: aquamarine;
+}
+#rollno{ margin-top: 1%;
+    width: 400px;
+    height: 20px;
+    border-radius: 10px 10px;
+    border-color: aquamarine;
+}
+#btn{ margin-top: 1%;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px 10px;
+    border-color: aquamarine;
+}
